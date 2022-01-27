@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: demo
+consul:
+  client:
+    defaultZone: ${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}
+    registration:
+      enabled: true

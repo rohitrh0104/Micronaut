@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: ribbonTest
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: ${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}
+ribbon:
+  clients:
+    demo:
+      VipAddress: test
+      ServerListRefreshInterval: 2000

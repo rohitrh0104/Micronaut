@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.netflix
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [app-name, consul, discovery-consul, gradle, http-client, java, java-application, junit, logback, micronaut-build, netflix-ribbon, netty-server, readme, shade, yaml]
