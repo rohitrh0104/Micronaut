@@ -28,6 +28,7 @@ dependencies {
     implementation("io.micronaut.netflix:micronaut-netflix-ribbon")
     runtimeOnly("ch.qos.logback:logback-classic")
     implementation("io.micronaut:micronaut-validation")
+    implementation 'javax.annotation:javax.annotation-api:1.3.2'
 
 }
 
